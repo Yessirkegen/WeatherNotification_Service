@@ -1,11 +1,11 @@
 package main
 
 import (
+	"WeatherNotification/internal/services"
 	"fmt"
 	"log"
 
 	"github.com/streadway/amqp"
-	"github.com/yourusername/notification-service/internal/services"
 )
 
 func main() {
